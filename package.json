@@ -1,0 +1,33 @@
+{
+  "name": "tanstack-start-client-bundle-error",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.11",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "drizzle-kit": "^0.30.4",
+    "tsx": "^4.19.2",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.102.3",
+    "@tanstack/start": "^1.102.3",
+    "better-auth": "^1.1.17",
+    "drizzle-orm": "^0.39.3",
+    "pg": "^8.13.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vinxi": "^0.5.3"
+  }
+}
