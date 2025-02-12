@@ -9,7 +9,9 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run dev
 ```
 
-This project was created using `bun init` in bun v1.1.45. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## issues
+
+when loading any page `Uncaught ReferenceError: Buffer is not defined` is hit. dizzle is leaking into the client bundle.
